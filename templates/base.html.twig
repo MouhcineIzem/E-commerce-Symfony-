@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="generator" content="Jekyll v4.1.1">
+    <title>{% block title  'La Boutique Francaise 100% made-in-France'%}</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{{ asset('Assets/css/bootstrap.min.css') }}" rel="stylesheet">
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="{{ asset('Assets/css/carousel.css') }}" rel="stylesheet">
+</head>
+<body>
+<main role="main">
+    {% include 'home/__partials/header.html.twig' %}
+
+    {% if block('carousel') is defined %}
+    {% include 'home/__partials/nav_bar.html.twig' %}
+    {% endif %}
+    <div class="container marketing {% if block('carousel') is not defined  %} mt-5 {% endif %}">
+
+    {% block content %}{% endblock %}
+    </div>
+    <!-- FOOTER -->
+    {% include 'home/__partials/footer.html.twig' %}
+</main>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="{{ asset('Assets/js/bootstrap.bundle.js') }}"></script>
+</body>
+</html>
