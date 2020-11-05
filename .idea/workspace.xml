@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="776120ac-64a0-4729-93be-bc2b3ceda539" name="Default Changelist" comment="" />
+    <list default="true" id="776120ac-64a0-4729-93be-bc2b3ceda539" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/UserType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/UserType.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +14,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -137,7 +144,9 @@
       <updated>1604224700079</updated>
       <workItem from="1604224701182" duration="1403000" />
       <workItem from="1604232581110" duration="70000" />
-      <workItem from="1604344795122" duration="2021000" />
+      <workItem from="1604344795122" duration="2092000" />
+      <workItem from="1604434216599" duration="2079000" />
+      <workItem from="1604494907854" duration="40000" />
     </task>
     <servers />
   </component>
@@ -145,9 +154,9 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="395" y="400" width="838" height="1032" key="search.everywhere.popup" timestamp="1604347319160">
+    <state x="395" y="400" width="838" height="1032" key="search.everywhere.popup" timestamp="1604435471983">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="395" y="400" width="838" height="1032" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1604347319160" />
+    <state x="395" y="400" width="838" height="1032" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1604435471983" />
   </component>
 </project>
