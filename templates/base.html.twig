@@ -10,6 +10,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="{{ asset('Assets/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('Assets/css/boutique-francaise.css') }}">
 
     <style>
         .bd-placeholder-img {
@@ -33,6 +34,7 @@
 <body>
 <main role="main">
     {% include 'home/__partials/header.html.twig' %}
+
 
     {% if block('carousel') is defined %}
     {% include 'home/__partials/nav_bar.html.twig' %}
